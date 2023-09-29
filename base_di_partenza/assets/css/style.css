@@ -173,15 +173,19 @@ section {
 .card {
   display: flex;
   flex-direction: row-reverse;
-  margin: 1em 1em 1em 9em;
+  margin: 1em 0em 1em 9em;
 }
 
 .cardtext {
-  width: 50%;
+  width: 80%;
+}
+.cardimg {
+  display: flex;
+  align-items: center;
 }
 
 .cardimg img {
-  width: 40%;
+  width: 50%;
   padding-left: 2em;
 }
 
@@ -221,7 +225,31 @@ section {
 }
 .card h8 a img {
   width: 1.6em;
-  padding-left: 12em;
+  padding-left: 15em;
 }
 
 /* aside */
+aside {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 6em 0em 0em;
+  position: sticky;
+  top: 0;
+  line-height: 2em;
+}
+aside h6 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+aside span {
+  padding: 0.5em;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 1em;
+  font-size: 0.7em;
+}
+#prog {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
