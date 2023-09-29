@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Spectral:wght@400;600&display=swap");
+
+body {
+  color: #191919;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  position: fixed;
+
+  padding: 1em;
+  z-index: 1;
+  background-color: #ffc017;
+  width: 100%;
+  border-bottom: 1px solid #191919;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#logo {
+  background-image: url(../imgs/svg/logo.svg);
+  height: 2em;
+  width: 9em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+}
+nav ul li {
+  padding-left: 2.5em;
+  font-size: 0.7em;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #191919;
+}
+
+nav button {
+  border-radius: 1.2em;
+  border: none;
+  padding: 0.8em 1.2em;
+  font-size: 1em;
+  background-color: #191919;
+  color: whitesmoke;
+}
+
+.hero {
+  background-color: #ffc017;
+  overflow: hidden;
+  border-bottom: solid 1px #191919;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  transform: translateY(-30px);
+  padding: 2em;
+}
+.hero h1 {
+  font-family: "Spectral", "serif";
+  font-size: 6em;
+  font-weight: 500;
+  letter-spacing: -0.05em;
+  padding-top: 1.6em;
+}
+
+.hero h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin: 0.8em;
+  letter-spacing: 0.05em;
+  font-size: 1.2em;
+}
+.hero button {
+  background-color: #191919;
+  padding: 0.5em 2.4em;
+  margin: 2em;
+  color: whitesmoke;
+  border: none;
+  border-radius: 2em;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  margin-bottom: 2.3em;
+}
+
+h5 {
+  font-size: 0.7em;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+
+  align-items: center;
+  font-weight: bold;
+
+  margin: 0em 0em 1em 10em;
+}
+
+h5 img {
+  margin-left: 0.2em;
+  margin-right: 0.5em;
+}
+
+#trending {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.trend {
+  width: 230px;
+  display: flex;
+  justify-content: space-around;
+  margin: 1em 1.5em;
+}
+
+.trend h5 {
+  font-size: 1.5em;
+  margin: 0;
+  color: lightgrey;
+  align-self: flex-start;
+  margin-right: 1em;
+}
+.trend h7 {
+  font-size: 0.7em;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.trend h7 img {
+  border-radius: 0.8em;
+  height: 2em;
+  margin-right: 0.5em;
+}
+
+.trend h6 {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+.trend p {
+  font-size: 0.7em;
+  color: grey;
+  margin-top: 1em;
+}
+hr {
+  color: lightgrey;
+  background-color: lightgrey;
+  height: 0.5px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/*  FINE TREND INIZIO CARDS  */
+
+#article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 1em 1em 1em 9em;
+}
+
+.cardtext {
+  width: 50%;
+}
+
+.cardimg img {
+  width: 40%;
+  padding-left: 2em;
+}
+
+.card h7 {
+  font-size: 0.7em;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+}
+.card h7 img {
+  border-radius: 2em;
+  width: 2em;
+  margin-right: 1em;
+}
+.card h4 {
+  margin-top: 0.5em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.card p {
+  font-size: 0.7em;
+  font-weight: 400;
+  color: grey;
+  margin-top: 0.8em;
+}
+.card h8 {
+  font-size: 0.7em;
+  align-items: center;
+  display: flex;
+  padding-top: 1em;
+  color: grey;
+}
+.card span {
+  background-color: lightgrey;
+  padding: 0.1em 0.5em;
+  border-radius: 1em;
+}
+.card h8 a img {
+  width: 1.6em;
+  padding-left: 12em;
+}
+
+/* aside */
