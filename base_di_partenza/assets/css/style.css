@@ -177,7 +177,7 @@ section {
 }
 
 .cardtext {
-  width: 80%;
+  width: 90%;
 }
 .cardimg {
   display: flex;
@@ -185,8 +185,8 @@ section {
 }
 
 .cardimg img {
-  width: 50%;
-  padding-left: 2em;
+  width: 70%;
+  padding-left: 1em;
 }
 
 .card h7 {
@@ -202,7 +202,7 @@ section {
 }
 .card h4 {
   margin-top: 0.5em;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: bold;
 }
 .card p {
@@ -225,14 +225,14 @@ section {
 }
 .card h8 a img {
   width: 1.6em;
-  padding-left: 15em;
+  padding-left: 11em;
 }
 
 /* aside */
 aside {
   display: flex;
   flex-direction: column;
-  margin: 1em 6em 0em 0em;
+  margin: 1em 7em 0em 0em;
   position: sticky;
   top: 0;
   line-height: 2em;
@@ -240,16 +240,31 @@ aside {
 aside h6 {
   font-weight: bold;
   text-transform: uppercase;
+  font-size: 0.8em;
 }
 aside span {
-  padding: 0.5em;
+  padding: 0.1em 0.5em;
   background-color: white;
   border: 1px solid lightgray;
-  border-radius: 1em;
+  border-radius: 0.8em;
   font-size: 0.7em;
+  margin: 0.2em;
 }
 #prog {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-bottom: 3em;
+  border-bottom: 1px solid grey;
+}
+#links {
+  padding-top: 1em;
+  font-size: 0.8em;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+#links a {
+  padding-left: 0.6em;
+  padding-right: 0.6em;
 }
